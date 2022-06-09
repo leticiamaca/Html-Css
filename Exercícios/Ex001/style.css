@@ -1,0 +1,41 @@
+@charset "UTF-8";
+#title, .subtitle, .posttitle{
+    color: rgb(90, 26, 0);
+    font-size: 40px;
+}
+.header{
+    background-color: rgb(238, 169, 169);
+}
+.posttitle{
+    font-size: 20px;
+    font-style: italic
+}
+.post{
+    background-color: rgb(201, 154, 154);
+      border: solid 3px maroon;
+      margin: 0;
+      margin-bottom: 15px;
+      padding: 5px;
+      text-align: justify;
+ 
+}
+body{
+ background-image: url("Novafotodrawing.jpg" );
+ background-size: 1500px;
+   font-family: Lucida  sans-serif;
+}
+.imagem{
+    border-radius: 50%;
+}
+.link{
+    text-decoration-line: none;
+    color: rgb(68, 68, 68);
+}
+.lista-de-contato  li a{
+
+    text-decoration-line: none;
+    color: rgb(68, 68, 68);
+}
+.lista-de-contato{
+    list-style-type: none;
+}

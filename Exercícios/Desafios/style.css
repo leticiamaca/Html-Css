@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(198, 162, 231);
+}
+.container {
+    position: relative; margin-top: center;
+    border-radius: 10px;
+    background: linear-gradient(236.85deg, #2c6cbe 27.26%, rgb(250, 75, 98) 96.03%);
+}
+
+
+hr{
+border-color: rgb(255, 162, 201);
+
+}
+
+.perfil-foto{ 
+    position: relative; margin-top: 3%;
+   position: relative; margin-left: 3%;
+
+    border-radius: 1000px;
+    box-shadow: 8px 4px 25px rgb(112, 58, 80);
+
+}
+.titulo{
+position: relative; bottom: 2px;
+   position: relative; margin-left: 30px;
+    color: rgb(255, 255, 255);
+
+}
+.titulo-2{
+        color: aliceblue;
+    position: relative; margin-left: 30px;
+ position: relative; bottom: 8px;
+}
+.projetos{
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;bottom: 15px;
+  
+}
+.video{
+    position: relative; top: 8px;
+    position: relative; bottom: 4px;
+}

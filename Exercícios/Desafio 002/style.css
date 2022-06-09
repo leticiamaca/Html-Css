@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(41, 39, 39);
+}
+.title{
+    color: rgb(255, 255, 255);
+ text-align: center;
+
+}
+.videos{
+position: relative; left: 27%;
+}
+
+.video-2{
+    position: relative; left: 27%;
+    }
+
+.imagem{
+   position: relative; left: 45%;
+}
+
+.playlist{
+    position: relative; left: 38%;
+    color: antiquewhite;
+}
