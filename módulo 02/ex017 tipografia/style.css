@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@import url();
+body{
+    font-family: sans-serif; /*safe combination , você pode pesquisar por Css web fonts combinations, para ver quais são as combinações de fontes mais seguras para o seu site, ou seja as que mais os dispositivos tem acesso*/
+
+    /*medidas absolutas: 
+    cm, centimetro
+    mm, milimetro
+    in,polegada
+    px,pixel
+    pt,ponto medidas da tipografia
+    pc paica medidas da tipografia
+
+    medidas relativas
+    em relativo ao tamanho natural
+    ex altura x (tamanho das letras minúsculas)
+    rem altura da letra maiúscula do body
+    vw largura da view port
+    vh altura da view port
+    % porcentagem
+    
+    recomendações px e em medidas oficialmente recomendadas pela w3c
+    
+    */
+
+    
+
+    /*font-size: 0.5in metade de uma polega*/ /* 1in é igual a 2,54 cm*/ ;
+
+   font-size: 16px; /*é igual a 1em*/
+}
+
+h1{
+    font-weight: bold; /*peso da fonte* lighter,normal,bold,bolder podemos fazer também por meio de números de 100 à 900 como se fosse uma porcentagem*/
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 3em;
+    /*shorthand: font style, font weight, font size e font family*/
+    font: italic bolder 3em arial, sans-serif;
+ 
+}
