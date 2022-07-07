@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabelas</title>
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse: collapse ;
+            
+        }
+        td{
+            padding: 10px;
+            text-align: center;
+            border: 2px solid black;
+          
+        }
+        .teste{
+            background-color: beige;
+        }
+        .cnome{
+            background-color: aqua;
+        }
+        .csexo{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo" span="2"><!--com essa configuração, a cor ou qualquer outra coisa que você ajustar na coluna csexo será expandida para ela e para a outra a seguir, se fosse o número 3 seria expandido para ela e para as outras duas a seguir-->
+        <col class="cidade">
+        <col class="cprof"> <!--Usamos essa tag para editar as colunas pois se for editar manuamente precisaria colocar uma mesma classe em todos os td-->
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <td scope="col">Nome</td>
+            <td scope="col">Sexo</td>
+            <td scope="col">Idade</td>
+            <td scope="col">Profissão</td>
+            <tr>
+                <td>Ana Maria</td>
+                <td>Feminino</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr class="teste">
+                <td scope="col">olá</td>
+                <td scope="col">teste</td>
+                <td scope="col">olá</td>
+                <td scope="col">teste</td>
+                <!--para configurar a linha que seria a tr não precisamos da tag colgrup agora se for para colunas como a td precisamos usar colgrup-->
+            </tr>
+        </tr>
+    </table>
+</body>
+</html>
